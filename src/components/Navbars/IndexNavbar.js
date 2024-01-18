@@ -17,6 +17,7 @@
 
 */
 import React from "react";
+
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
@@ -69,11 +70,14 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
-            target="_blank"
+            href="/"
             title="Newton Jacha Engineering"
           >
-            <img src={logo} className="App-logo" alt="logo" />
+            <img
+              src={logo}
+              className="App-logo"
+              alt="Newton Jacha Engineering"
+            />
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -101,21 +105,21 @@ function IndexNavbar() {
           </Nav>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/index" target="_blank">
+              <NavLink href="/services">
                 <i /> Services
               </NavLink>
             </NavItem>
           </Nav>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/index" t>
+              <NavLink href="/about">
                 <i /> About
               </NavLink>
             </NavItem>
           </Nav>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/index">
+              <NavLink href="/contact">
                 <i /> Contact
               </NavLink>
             </NavItem>

@@ -5,7 +5,6 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import ProfilePageHeader from "components/Headers/ProfilePageHeader";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
@@ -15,6 +14,7 @@ import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import SectionQuotation from "./index-sections/SectionQuotation";
 import SectionBrands from "./index-sections/SectionBrands";
 import SectionFacts from "./index-sections/SectionFacts";
+import SectionDark from "./index-sections/SectionDark";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -34,7 +34,7 @@ function Index() {
         <SectionCarousel />
         <SectionBrands />
         <SectionQuotation />
-        <ProfilePageHeader />
+        <SectionDark />
         <DemoFooter />
       </div>
     </>

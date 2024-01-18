@@ -34,19 +34,29 @@ import {
 
 const items = [
   {
-    src: require("assets/img/soroush-karimi.jpg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
+    src: require("assets/img/truck16.jpg"),
+    altText: "lowbed-truck-transporting-a-bulldozer",
+    caption: "lowbed-truck-transporting-a-bulldozer",
   },
   {
-    src: require("assets/img/federico-beccari.jpg"),
-    altText: "Somewhere else",
-    caption: "Somewhere else",
+    src: require("assets/img/truck15.jpg"),
+    altText: "rigid truck",
+    caption: "rigid truck",
   },
   {
-    src: require("assets/img/joshua-stannard.jpg"),
-    altText: "Here it is",
-    caption: "Here it is",
+    src: require("assets/img/truck5.jpg"),
+    altText: "horse and trailler",
+    caption: "horse and trailler",
+  },
+  {
+    src: require("assets/img/truck4.jpg"),
+    altText: "Scania trucks",
+    caption: "Scania trucks",
+  },
+  {
+    src: require("assets/img/truck19.jpg"),
+    altText: "blue rigid truck",
+    caption: "blue rigid truck",
   },
 ];
 
