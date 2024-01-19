@@ -62,30 +62,30 @@ function ContactPage() {
               <i className="nc-icon nc-pin-3" />
             </div>
             <h2>Address</h2>
-            <h3>
+            <h5>
               37 Ashfield Blackbog Rd <br />
               Carlow <br />
               Republic of Ireland
-            </h3>
+            </h5>
             <Space />
-            <h3>
+            <h5>
               448/449 Sadza Growth Point <br /> Sadza <br />
               Zimbabwe
-            </h3>
+            </h5>
             <Space />
             <Space />
             <div className="icon icon-info">
               <i className="nc-icon nc-badge" />
             </div>
             <h2>Phone</h2>
-            <h3>+353 89 273 1581</h3>
+            <h5>+353 89 273 1581</h5>
             <Space />
             <Space />
             <div className="icon icon-info">
               <i className="nc-icon nc-email-85" />
             </div>
             <h2>Email</h2>
-            <h3>sales@newtonjachaeng.com</h3>
+            <h5>sales@newtonjachaeng.com</h5>
             <Space />
             <Space />
           </div>
