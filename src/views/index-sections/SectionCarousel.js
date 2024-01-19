@@ -34,6 +34,11 @@ import {
 
 const items = [
   {
+    src: require("assets/img/mach3.jpg"),
+    altText: "bulldozer",
+    caption: "bulldozer",
+  },
+  {
     src: require("assets/img/truck16.jpg"),
     altText: "lowbed-truck-transporting-a-bulldozer",
     caption: "lowbed-truck-transporting-a-bulldozer",
@@ -43,6 +48,7 @@ const items = [
     altText: "rigid truck",
     caption: "rigid truck",
   },
+
   {
     src: require("assets/img/truck5.jpg"),
     altText: "horse and trailler",

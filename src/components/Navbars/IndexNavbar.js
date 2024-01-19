@@ -98,7 +98,7 @@ function IndexNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink href="/index" target="_blank">
+              <NavLink href="/index">
                 <i /> Home
               </NavLink>
             </NavItem>
